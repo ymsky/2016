@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<launch>
+  <node name="ardrone_driver1" pkg="ardrone_autonomy" type="ardrone_driver" args="-ip 10.0.0.13" ns="uav1" output="screen"/>
+  <node name="ardrone_driver2" pkg="ardrone_autonomy" type="ardrone_driver" args="-ip 10.0.0.11" ns="uav2" output="screen"/>
+</launch>
