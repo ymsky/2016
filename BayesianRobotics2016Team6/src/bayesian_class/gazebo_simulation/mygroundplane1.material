@@ -1,0 +1,56 @@
+    material MyGroundPlane1/Image1
+    {
+      technique
+      {
+        pass
+        {
+          ambient 0.5 0.5 0.5 1.0
+          diffuse 1.0 1.0 1.0 1.0
+          specular 0.0 0.0 0.0 1.0 0.5
+
+          texture_unit
+          {
+            texture download.png
+            filtering trilinear
+          }
+        }
+      }
+    }
+
+    material MyGroundPlane1/Image2
+    {
+      technique
+      {
+        pass main
+        {
+          ambient 0.5 0.5 0.5 1.0
+          diffuse 1.0 1.0 1.0 1.0
+          specular 0.0 0.0 0.0 1.0 0.5
+
+          texture_unit
+          {
+            texture arena.png
+            filtering trilinear
+          }
+        }
+      }
+    }
+
+    material MyGroundPlane1/cross_circle
+    {
+      technique
+      {
+        pass
+        {
+          ambient 0.5 0.5 0.5 1.0
+          diffuse 1.0 1.0 1.0 1.0
+          specular 0.0 0.0 0.0 1.0 0.5
+
+          texture_unit
+          {
+            texture cross_circle.png
+            filtering trilinear
+          }
+        }
+      }
+    }
